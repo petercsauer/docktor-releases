@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>docktor 0.9.0 Release Notes</title>
+  <style>body{font:16px/1.5 -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;color:#111}pre{white-space:pre-wrap}</style>
+</head>
+<body><pre># docktor 0.9.0
+
+_Released 2026-04-24_
+
+## What&#x27;s new
+
+This is the first public beta of docktor. The 0.9.0 build focuses on a stable, on-device experience around the macOS Dock: hover any Dock tile to see live previews of that app&#x27;s windows and keep a small set of always-on tools (calendar, music, weather, timers, system stats) parked alongside the Dock. Clipboard and Window Layout remain in development and are hidden from the beta. We also took the opportunity to delete the parts of the codebase that were not pulling their weight, including the entire Google Calendar integration, so docktor talks to as few external services as possible.
+
+## Highlights
+
+- **Dock window previews.** Live thumbnail previews of every open window for the app you&#x27;re hovering, rendered with ScreenCaptureKit and a per-app window-list service.
+- **Settings overhaul.** A new sidebar-driven Settings window with General, Widgets, Layout, About, and per-widget configuration screens.
+- **Music widget now-playing controls.** Compact transport controls and metadata for supported Apple Music and Spotify playback.
+- **Lyrics service.** Synced lyrics inside the Music widget drawer for tracks currently playing on Spotify or Apple Music.
+- **Timer widget.** Stackable countdown timers beside the Dock.
+- **Weather widget.** Current conditions and short-range forecasts from Open-Meteo using your CoreLocation coordinates.
+- **System stats widget.** CPU, memory, and disk telemetry at a glance.
+- **Music widget controls.** Improved playback controls, queue inspection, and source switching between Spotify and Apple Music.
+
+## What&#x27;s removed
+
+- **Google Calendar integration.** docktor 0.9.0 reads calendar data exclusively from Apple Calendar via EventKit. The Google OAuth flow, client configuration, calendar adapters, and the previously-committed client secret have all been removed. A one-shot Keychain purge runs on first launch to delete any leftover Google tokens from earlier builds.
+- **Clipboard and Window Layout beta surfaces.** Both modules remain in the codebase for continued development, but they are hidden from the public beta.
+
+## Known issues
+
+- One Dock right-side test (`RightSideDockItemTests/trashEmptyButtonGating`) is currently flaky and is being tracked separately. It does not affect runtime behavior.
+- Crash reporting upload is not enabled in the beta. If opt-in crash reporting ships later, the privacy policy and Settings surface will be updated first.
+
+## Privacy
+
+docktor does not collect analytics by default and keeps calendar data, supported music playback metadata, and Dock previews local unless you opt into a service-backed feature. Outbound network calls are limited to Spotify (when you sign in), Open-Meteo (when the Weather widget is enabled), and update checks. See [PRIVACY.md](../PRIVACY.md) for the full policy.
+</pre></body>
+</html>

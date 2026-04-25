@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>docktor Updates</title>
+    <link>https://petercsauer.github.io/docktor-releases/</link>
+    <description>Release updates for docktor.</description>
+    <language>en</language>
+<item>
+            <title>docktor 0.9.0</title>
+            <pubDate>Sat, 25 Apr 2026 04:42:54 +0000</pubDate>
+            <sparkle:version>900</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <sparkle:releaseNotesLink>https://petercsauer.github.io/docktor-releases/downloads/0.9.0.html</sparkle:releaseNotesLink>
+            <enclosure url="https://petercsauer.github.io/docktor-releases/downloads/docktor-0.9.0.dmg"
+                       type="application/octet-stream"
+                       sparkle:edSignature="YR/LZiypbj3VRnul8kE/mBUmZO5H4bFnrEg5OBWTNslMAjVm2DKq5L7kwG+QMDHmNbWWuqFrBj1HPQJKcwTyCg==" length="5266383" />
+        </item>
+  </channel>
+</rss>
