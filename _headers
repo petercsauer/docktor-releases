@@ -1,0 +1,27 @@
+# Immutable hashed assets from Next.js static export
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts — long cache, they're versioned by content
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images and media — browser caches 7 days; CDN purges on deploy
+/assets/*
+  Cache-Control: public, max-age=604800
+
+/icon-dark*.webp
+  Cache-Control: public, max-age=604800
+
+/icon-dark.png
+  Cache-Control: public, max-age=604800
+
+/og-image*
+  Cache-Control: public, max-age=604800
+
+# HTML pages — short cache so updates propagate quickly
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
