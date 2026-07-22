@@ -5,7 +5,7 @@
     <link>https://petercsauer.github.io/docktor-releases/</link>
     <description>Release updates for docktor.</description>
     <language>en</language>
-        <item>
+<item>
             <title>docktor 0.9.1</title>
             <pubDate>Mon, 11 May 2026 18:08:59 +0000</pubDate>
             <sparkle:version>910</sparkle:version>
@@ -14,7 +14,7 @@
                        type="application/octet-stream"
                        sparkle:edSignature="CWl4F/t7M7r4IsFzKgOckyoDvJ6NiAvCpfA80Dhn5+YXXwFinLiZ1Nb3vxZufL+DdBPqwSwNaHnlJn/EeGNuBw==" length="7293434" />
         </item>
-        <item>
+<item>
             <title>docktor 0.9.0</title>
             <pubDate>Tue, 05 May 2026 23:11:42 +0000</pubDate>
             <sparkle:version>900</sparkle:version>
@@ -23,5 +23,15 @@
                        type="application/octet-stream"
                        sparkle:edSignature="WklOlgxjipwuoKSZvqVGXrOaNXM5JxFZOS2K17UZ79AaKZV58WvNNGy07v7NSFMGxt0TvKW3RBopys5pCOvGDw==" length="7111439" />
         </item>
-  </channel>
+<item>
+            <title>docktor 0.10.0</title>
+            <pubDate>Wed, 22 Jul 2026 23:13:23 +0000</pubDate>
+            <sparkle:version>1001</sparkle:version>
+            <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+            <sparkle:releaseNotesLink>https://github.com/petercsauer/docktor-releases/releases/download/v0.10.0/0.10.0.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/petercsauer/docktor-releases/releases/download/v0.10.0/docktor-0.10.0.dmg"
+                       type="application/octet-stream"
+                       sparkle:edSignature="Hn4DhUj+rizqeIg/UZDLCq7lizmlOJKzdFJR+fP2Wb5drsyUHeedwAaCNImijb+c0BC3nYEipvh1AuMm0+f7Dw==" length="12806901" />
+        </item>
+</channel>
 </rss>
