@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Docktor</title>
+    <link>https://petercsauer.github.io/docktor-releases/appcast-beta.xml</link>
+    <description>Docktor updates</description>
+    <language>en</language>
+<item>
+            <title>docktor 0.10.0</title>
+            <pubDate>Wed, 22 Jul 2026 23:13:23 +0000</pubDate>
+            <sparkle:version>1001</sparkle:version>
+            <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+            <sparkle:releaseNotesLink>https://github.com/petercsauer/docktor-releases/releases/download/v0.10.0/0.10.0.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/petercsauer/docktor-releases/releases/download/v0.10.0/docktor-0.10.0.dmg"
+                       type="application/octet-stream"
+                       sparkle:edSignature="Hn4DhUj+rizqeIg/UZDLCq7lizmlOJKzdFJR+fP2Wb5drsyUHeedwAaCNImijb+c0BC3nYEipvh1AuMm0+f7Dw==" length="12806901" />
+        </item>
+</channel>
+</rss>
