@@ -1,0 +1,8 @@
+# Marketing site canonical host is https://docktorapp.com/
+# This GitHub Pages host keeps Sparkle feeds and release assets only.
+User-agent: *
+Disallow: /
+Allow: /appcast.xml
+Allow: /appcast-beta.xml
+Allow: /downloads/
+Sitemap: https://docktorapp.com/sitemap.xml
