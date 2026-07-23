@@ -15,5 +15,15 @@
                        type="application/octet-stream"
                        sparkle:edSignature="Hn4DhUj+rizqeIg/UZDLCq7lizmlOJKzdFJR+fP2Wb5drsyUHeedwAaCNImijb+c0BC3nYEipvh1AuMm0+f7Dw==" length="12806901" />
         </item>
+<item>
+            <title>docktor 0.10.1</title>
+            <pubDate>Thu, 23 Jul 2026 00:25:51 +0000</pubDate>
+            <sparkle:version>1002</sparkle:version>
+            <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
+            <sparkle:releaseNotesLink>https://github.com/petercsauer/docktor-releases/releases/download/v0.10.1/0.10.1.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/petercsauer/docktor-releases/releases/download/v0.10.1/docktor-0.10.1.dmg"
+                       type="application/octet-stream"
+                       sparkle:edSignature="aOPhFsQDy3gKG3zLEVog3d6ggs75qeyM2jwqqzw3rTW0I8c0183rsC/Awl5mTqAbmL8Lfa5o6b/Q8khK9jUbAQ==" length="12784550" />
+        </item>
 </channel>
 </rss>
