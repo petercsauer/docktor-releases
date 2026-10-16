@@ -181,5 +181,23 @@
                        type="application/octet-stream"
                        sparkle:edSignature="Bsm3VXOt2dJLiAgIAYRhRr5LqR3fXZPQLYlSG+ay46C4C2YdYrZDw15at4xFflGCFaOBCpZRaGzuZjeukWdJAA==" length="35144528" />
         </item>
+<item>
+            <title>docktor 0.15.0</title>
+            <pubDate>Fri, 16 Oct 2026 12:33:44 +0000</pubDate>
+            <sparkle:version>1019</sparkle:version>
+            <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
+            <sparkle:releaseNotesLink xml:lang="en">https://github.com/petercsauer/docktor-releases/releases/download/v0.15.0/0.15.0.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="es">https://github.com/petercsauer/docktor-releases/releases/download/v0.15.0/0.15.0.es.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://github.com/petercsauer/docktor-releases/releases/download/v0.15.0/0.15.0.fr.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="de">https://github.com/petercsauer/docktor-releases/releases/download/v0.15.0/0.15.0.de.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://github.com/petercsauer/docktor-releases/releases/download/v0.15.0/0.15.0.ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="pt-BR">https://github.com/petercsauer/docktor-releases/releases/download/v0.15.0/0.15.0.pt-BR.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://github.com/petercsauer/docktor-releases/releases/download/v0.15.0/0.15.0.ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://github.com/petercsauer/docktor-releases/releases/download/v0.15.0/0.15.0.zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hant">https://github.com/petercsauer/docktor-releases/releases/download/v0.15.0/0.15.0.zh-Hant.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/petercsauer/docktor-releases/releases/download/v0.15.0/docktor-0.15.0.dmg"
+                       type="application/octet-stream"
+                       sparkle:edSignature="IT5SvU8Do3Srpcq3cFG66DKh5jKNML/KyWTLdMtLLms2IsQ2vReNb9+TO0f9Lq2TnPBJ6hwOl1BLnhzQ+8nXDw==" length="42519715" />
+        </item>
 </channel>
 </rss>
